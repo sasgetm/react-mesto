@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react';
-import {BrowserRouter, Route, Routes, Navigate, useNavigate} from 'react-router-dom';
+import {HashRouter, Route, Routes, Navigate} from 'react-router-dom';
 import Header from './Header.js';
 import Main from './Main.js';
 import EditProfilePopup from './EditProfilePopup.js';
